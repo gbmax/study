@@ -1,0 +1,7 @@
+ . 먼저 올릴 파일을 open folder로 옮김.
+ . github link 마크다운 처리 : 공통내용 + 파일명() 있으면 colab에서 인식못함
+ 공통 내용 : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gbmax/Code/blob/master/
+
+ . github upload : 해당 github 창으로 가서 drag-drop해도 됨(20 MB 이상은 안됨).
+ . local NB 에서 시험.
+ . 데이타는 필요할 때 drag-drop 또는 uplaod script 이용.

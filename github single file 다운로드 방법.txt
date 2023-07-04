@@ -1,0 +1,6 @@
+파일선택 후 다운로드 버튼 생기면 다운로드 - chrome 에서 ehanced github 설치해야 되나?
+텍스트 파일이면 
+  - raw > 오른쪽 마우스 > 다른이름으로 링크 저장 
+
+ - raw url address 복사후, $ curl address -o target.txt
+  

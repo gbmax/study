@@ -1,0 +1,14 @@
+<< export / import / unregister >>
+# wsl -l -v 로 이름확인.
+
+< 보내는 쪽에서 >
+wsl --shutdown
+wsl --export Ubuntu-20.04 D:\wsl\src.tar  
+< 설치하는 쪽에서 >
+wsl --unregister Ub # 시스템에 Ub라는 이름이 있으면 해제 - 하지 않으면 import 시 이름 중복오류남.
+wsl --import Ub(new name) D:\wsl(dest) D:\wsl\src.tar
+< import 후 root로 로그인되는 것을 사용자로 변경방법>
+/etc/wsl.conf 파일 열어서 (시스템 작업이라 wsl 내에서 vim 이용해야 함)
+
+wsl --shutdown #  실행중인 모든 wsl 종료
+wsl --unregister My_Ubuntu  # 제거

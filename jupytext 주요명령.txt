@@ -1,0 +1,11 @@
+jupytext 주요 명령	
+py file을 노트북으로 열려면
+ -: 우클릭 > open with Notebook
+노트북 페어링 
+  -: 노트북 선택 > ctl+Sft + C > Pair with Percent Script
+vscode 에서 수정한 걸 노트북에 반영하려면 
+  -: 노트북에서 F5 / File:Reload from disk
+노트북 수정내용은 vscode에 자동반영됨.
+jupyter autosave 방지법
+  $ mkdir -p ~/.jupyter/custom
+  $ echo ""Jupyter.notebook.set_autosave_interval(0);"" >> ~/.jupyter/custom/custom.js"
